@@ -8,3 +8,5 @@ let tilelayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}
     zoomOffset: -1,
     accessToken: 'your.mapbox.access.token'
 }).addTo(mymap);
+
+//doesn't work very well - tile is empty
