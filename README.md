@@ -1,14 +1,19 @@
-***Objectif***
+#Objectif
+
 Affichage des coordonnées d’une entreprise en provenance de la base officielle SIRENE :
-https://entreprise.data.gouv.fr/api_doc/sirene
-***Principe***
+[https://entreprise.data.gouv.fr/api_doc/sirene]
+
+#Principe
+
 • Saisie en « front » du SIRET avec contrôle de format (14 chiffres)
 • Invocation AJAX asynchrone d’un code PHP qui lui-même invoque via REST l’API SIRENE
 • Récupération dénomination, adresse, coordonnées et date du dernier traitement
 • Affichage dénomination, adresse, date du dernier traitement et marqueur sur carte
 • Si l’entreprise est inactive (cf. état administratif) sa dénomination et son marqueur seront en « rouge »
 • ATTENTION aux homonymes !
-***Technologies***
+
+#Technologies
+
 • Front
 • Cartographie
 • Back
@@ -17,5 +22,6 @@ https://entreprise.data.gouv.fr/api_doc/sirene
 : https://leafletjs.com
 : PHP 7, Composer
 : https://github.com/tcdent/php-restclient
-Livrable
+
+#Livrable
 • Lien GITHub avec README.md et codes commentés
